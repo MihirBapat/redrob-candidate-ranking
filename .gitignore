@@ -18,6 +18,17 @@ coherence_scores.csv
 coherence_ceiling.json
 feature_matrix.csv
 
+# ---- Large precompute artifacts (regenerate via precompute.py) ----
+artifacts/
+artifacts_test/
+*.npy
+*.index
+*.faiss
+
+# ---- Secrets (NEVER commit) ----
+.env
+*.key
+
 # ---- Scratch / temp ----
 _stage3_*.txt
 _spec_*
