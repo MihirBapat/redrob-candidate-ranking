@@ -17,6 +17,10 @@ __pycache__/
 coherence_scores.csv
 coherence_ceiling.json
 feature_matrix.csv
+artifacts/
+label_queue.jsonl
+_batch_labels.json
+_precompute_*.log
 
 # ---- Large precompute artifacts (regenerate via precompute.py) ----
 artifacts/

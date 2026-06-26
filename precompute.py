@@ -20,13 +20,16 @@ import os
 import json
 import pickle
 import argparse
+import multiprocessing as mp
 
 import numpy as np
 
 ARTIFACTS = "artifacts"
-MODEL_NAME = "all-mpnet-base-v2"
+# MiniLM-L6-v2: 5x smaller/faster than mpnet on CPU. FAISS is only the recall
+# layer (LightGBM re-ranks the top 500), so this is the right speed/quality call.
+MODEL_NAME = "all-MiniLM-L6-v2"
 EMBED_BATCH = 256
-MAX_BLOB_CHARS = 2000   # guard against a pathological huge record dominating
+MAX_BLOB_CHARS = 600   # shorter blob -> much faster embedding; keeps the recall signal
 
 
 def build_blob(candidate):
@@ -35,12 +38,12 @@ def build_blob(candidate):
     parts = [
         p.get("current_title") or "",
         p.get("headline") or "",
-        p.get("summary") or "",
+        (p.get("summary") or "")[:400],
     ]
+    # career TITLES + companies carry domain signal cheaply (skip long descriptions)
     for job in (candidate.get("career_history") or []):
         parts.append(job.get("title") or "")
         parts.append(job.get("company") or "")
-        parts.append(job.get("description") or "")
     blob = ". ".join(s for s in parts if s).strip()
     return blob[:MAX_BLOB_CHARS]
 
@@ -60,17 +63,20 @@ def iter_candidates(path):
 
 
 def run(input_path="candidates.jsonl", artifacts=ARTIFACTS, limit=None):
+    import torch
+    torch.set_num_threads(mp.cpu_count())
     import faiss
     from sentence_transformers import SentenceTransformer
 
     os.makedirs(artifacts, exist_ok=True)
-    print(f"Loading embedding model '{MODEL_NAME}' (downloads once)...")
+    print(f"Loading embedding model '{MODEL_NAME}' on {mp.cpu_count()} threads...",
+          flush=True)
     model = SentenceTransformer(MODEL_NAME)
     dim = model.get_sentence_embedding_dimension()
-    print(f"  embedding dim = {dim}")
+    print(f"  embedding dim = {dim}", flush=True)
 
     # save model locally for offline inference
-    model_dir = os.path.join(artifacts, "mpnet")
+    model_dir = os.path.join(artifacts, "embedder")
     if not os.path.exists(os.path.join(model_dir, "config.json")):
         print(f"  saving model -> {model_dir}")
         model.save(model_dir)
@@ -98,7 +104,7 @@ def run(input_path="candidates.jsonl", artifacts=ARTIFACTS, limit=None):
         )
         embs[start:end] = vecs.astype("float32")
         if (end // EMBED_BATCH) % 20 == 0 or end == n:
-            print(f"  embedded {end}/{n}")
+            print(f"  embedded {end}/{n}", flush=True)
 
     print("Building FAISS IndexFlatIP...")
     index = faiss.IndexFlatIP(dim)
@@ -110,10 +116,10 @@ def run(input_path="candidates.jsonl", artifacts=ARTIFACTS, limit=None):
         pickle.dump(ids, f)
     np.save(os.path.join(artifacts, "embeddings.npy"), embs)
 
-    print("\nSaved artifacts:")
-    for fn in ("faiss.index", "candidate_ids.pkl", "embeddings.npy", "mpnet/"):
+    print("\nSaved artifacts:", flush=True)
+    for fn in ("faiss.index", "candidate_ids.pkl", "embeddings.npy", "embedder/"):
         print(f"  {os.path.join(artifacts, fn)}")
-    print("Done.")
+    print("DONE.", flush=True)
 
 
 if __name__ == "__main__":
