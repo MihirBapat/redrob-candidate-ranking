@@ -35,6 +35,7 @@ artifacts_test/
 
 # ---- Scratch / temp ----
 _stage3_*.txt
+_broadnet*.log
 _spec_*
 *.tmp
 

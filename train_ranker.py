@@ -145,6 +145,7 @@ if __name__ == "__main__":
     ap.add_argument("--ceiling", default="coherence_ceiling.json")
     ap.add_argument("--artifacts", default=ARTIFACTS)
     ap.add_argument("--no-honeypots", action="store_true")
+    ap.add_argument("--honeypot-cap", type=int, default=30)
     args = ap.parse_args()
     run(args.input, args.labels, args.coherence, args.ceiling, args.artifacts,
-        add_honeypots=not args.no_honeypots)
+        add_honeypots=not args.no_honeypots, honeypot_cap=args.honeypot_cap)

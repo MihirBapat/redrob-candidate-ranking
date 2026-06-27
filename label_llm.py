@@ -127,7 +127,8 @@ class GroqProvider(Provider):
         req = urllib.request.Request(
             self.URL, data=json.dumps(body).encode(),
             headers={"Authorization": f"Bearer {self.key}",
-                     "Content-Type": "application/json"})
+                     "Content-Type": "application/json",
+                     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) redrob-labeler/1.0"})
         with urllib.request.urlopen(req, timeout=120) as r:
             data = json.loads(r.read())
         return data["choices"][0]["message"]["content"]
