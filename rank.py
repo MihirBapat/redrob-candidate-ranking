@@ -27,9 +27,8 @@ import argparse
 
 import numpy as np
 
-from jd_parser import load_and_parse
+from jd_parser import load_and_parse, build_jd_query
 from features import build_feature_row, FEATURE_COLUMNS, _load_coherence
-from make_label_queue import build_jd_query
 from reasoning import generate_reasoning
 
 ARTIFACTS = "artifacts"

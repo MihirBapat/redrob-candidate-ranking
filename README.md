@@ -51,14 +51,17 @@ list — an HR Manager scores ≈ 0.09 while an ML Engineer scores ≈ 0.90.
 
 ## Pre-computation (build the artifacts)
 
+Run all commands **from the project root** (scripts use root-relative paths and
+import the shared modules at root):
+
 ```bash
 pip install -r requirements-precompute.txt
 
-python coherence.py                       # Stage 2 -> coherence_scores.csv, coherence_ceiling.json
-python precompute.py                      # -> artifacts/faiss.index, candidate_ids.pkl, embedder/  (~45 min CPU)
-python make_label_queue.py                # -> label_queue.jsonl (FAISS contenders + stratified)
-GROQ_API_KEY=... python label_llm.py --provider groq   # broad-net labels -> labels.jsonl (resumable)
-python train_ranker.py --honeypot-cap 60  # -> artifacts/ranker.lgb
+python day2_coherence_validation/coherence.py        # -> coherence_scores.csv, coherence_ceiling.json
+python day3_index_and_labels/precompute.py           # -> artifacts/faiss.index, candidate_ids.pkl, embedder/  (~45 min CPU)
+python day3_index_and_labels/make_label_queue.py     # -> label_queue.jsonl (FAISS contenders + stratified)
+GROQ_API_KEY=... python day4_labeling_and_training/label_llm.py --provider groq   # broad-net labels -> labels.jsonl (resumable)
+python day4_labeling_and_training/train_ranker.py --honeypot-cap 70   # -> artifacts/ranker.lgb
 ```
 
 Large artifacts (`faiss.index`, `embeddings.npy`, `embedder/`) are git-ignored
@@ -72,20 +75,29 @@ labels are committed so training is reproducible.
 - **CPU only / no GPU:** `faiss-cpu`, CPU torch, LightGBM.
 - **No network at ranking:** model + index loaded from disk; LLMs used *only* offline.
 
-## Repo map
+## Repo map (organised day-wise; shared library + entry point kept at root)
 ```
+# --- common (root): the entry point + shared library imported across stages ---
 rank.py                 inference entry point (judges run this)
-precompute.py           offline FAISS build
-make_label_queue.py     pick candidates to label
-label_llm.py            offline LLM labeler (Groq/Gemini), resumable
-add_labels.py           merge label batches into labels.jsonl
-train_ranker.py         LightGBM lambdarank trainer
-coherence.py            Stage 2 honeypot/coherence validator
 canonicaliser.py        skill alias + domain lexicons
-jd_parser.py            JD -> structured spec
+jd_parser.py            JD -> structured spec (+ build_jd_query)
 features.py             14-feature builder (per candidate)
 reasoning.py            Stage 5 rank-aware reasoning
-db_setup.py             Stage 1 ingestion
 labels.jsonl            LLM relevance labels (training data)
-submission_metadata.yaml
+jd.txt, requirements*.txt, submission.csv, submission_metadata.yaml
+
+# --- day-wise development work ---
+day1_data_ingestion/
+    db_setup.py             streaming JSONL ingestion
+day2_coherence_validation/
+    coherence.py            honeypot/coherence validator (deterministic + soft anomaly)
+day3_index_and_labels/
+    precompute.py           offline FAISS build (MiniLM embeddings over 100k)
+    make_label_queue.py     pick candidates to label (FAISS contenders + stratified)
+day4_labeling_and_training/
+    label_llm.py            offline LLM labeler (Groq/Gemini), resumable
+    add_labels.py           merge label batches into labels.jsonl
+    train_ranker.py         LightGBM lambdarank trainer
 ```
+The day-folder scripts add the project root to `sys.path` so the shared modules
+import cleanly when run from root.

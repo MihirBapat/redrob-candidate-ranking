@@ -133,6 +133,19 @@ def load_and_parse(path="jd.txt"):
         return parse_jd(f.read())
 
 
+def build_jd_query(jd):
+    """A concise semantic query for FAISS retrieval (the embedder truncates long prose).
+    Shared by make_label_queue.py (offline) and rank.py (inference)."""
+    req = ", ".join(sorted(jd["required_skills"]))
+    nice = ", ".join(sorted(jd["nice_to_have_skills"]))
+    return (
+        "Senior AI Engineer. Applied ML / AI at a product company. "
+        "Core: embeddings-based retrieval, vector search, ranking, recommendation "
+        "and search systems, ranking evaluation (NDCG, MRR, MAP), Python. "
+        f"Required: {req}. Nice to have: {nice}."
+    )
+
+
 if __name__ == "__main__":
     import json
     parsed = load_and_parse()

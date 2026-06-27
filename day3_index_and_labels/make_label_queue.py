@@ -22,23 +22,14 @@ import argparse
 
 import numpy as np
 
-from jd_parser import load_and_parse
+# allow importing the shared library modules kept at the project root
+import sys
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from jd_parser import load_and_parse, build_jd_query
 from features import domain_fit
 
 ARTIFACTS = "artifacts"
 DESC_CHARS = 280
-
-
-def build_jd_query(jd):
-    """A concise semantic query for retrieval (mpnet truncates long prose)."""
-    req = ", ".join(sorted(jd["required_skills"]))
-    nice = ", ".join(sorted(jd["nice_to_have_skills"]))
-    return (
-        "Senior AI Engineer. Applied ML / AI at a product company. "
-        "Core: embeddings-based retrieval, vector search, ranking, recommendation "
-        "and search systems, ranking evaluation (NDCG, MRR, MAP), Python. "
-        f"Required: {req}. Nice to have: {nice}."
-    )
 
 
 def compact_payload(c):

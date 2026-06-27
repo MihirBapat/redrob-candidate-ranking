@@ -25,6 +25,9 @@ import numpy as np
 import pandas as pd
 import lightgbm as lgb
 
+# allow importing the shared library modules kept at the project root
+import sys
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from jd_parser import load_and_parse
 from features import build_feature_row, FEATURE_COLUMNS, _load_coherence
 
