@@ -30,7 +30,7 @@ import numpy as np
 from jd_parser import load_and_parse
 from features import build_feature_row, FEATURE_COLUMNS, _load_coherence
 from make_label_queue import build_jd_query
-from canonicaliser import canonicalise_set
+from reasoning import generate_reasoning
 
 ARTIFACTS = "artifacts"
 TOP_K_FAISS = 500
@@ -51,28 +51,6 @@ def _load_full_records(path, wanted_ids):
                 if len(recs) == len(wanted_ids):
                     break
     return recs
-
-
-def minimal_reasoning(cand, jd, feats):
-    """Factual one-liner grounded ONLY in the profile (Stage 5 upgrades this)."""
-    p = cand.get("profile") or {}
-    title = p.get("current_title") or "Candidate"
-    yrs = p.get("years_of_experience")
-    matched = sorted(canonicalise_set(cand.get("skills")) & jd["required_skills"])[:3]
-    last_co = ""
-    for j in (cand.get("career_history") or []):
-        if j.get("company"):
-            last_co = j["company"]
-            break
-    bits = [f"{title}"]
-    if yrs is not None:
-        bits.append(f"{yrs} yrs exp")
-    if last_co:
-        bits.append(f"most recently at {last_co}")
-    if matched:
-        bits.append("relevant skills: " + ", ".join(matched))
-    bits.append(f"domain fit {feats['domain_fit']:.2f}")
-    return "; ".join(bits) + "."
 
 
 def run(candidates="candidates.jsonl", jd_path="jd.txt", out="submission.csv",
@@ -145,7 +123,7 @@ def run(candidates="candidates.jsonl", jd_path="jd.txt", out="submission.csv",
         w.writerow(["candidate_id", "rank", "score", "reasoning"])
         for rank, r in enumerate(top, start=1):
             w.writerow([r["candidate_id"], rank, f"{r['score']:.6f}",
-                        minimal_reasoning(r["cand"], jd, r["feats"])])
+                        generate_reasoning(rank, r["cand"], jd, r["feats"])])
 
     n_hp = sum(1 for r in top if r["score"] < -500)
     print(f"\nWrote {len(top)} rows -> {out}")
