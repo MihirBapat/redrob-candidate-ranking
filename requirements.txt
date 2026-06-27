@@ -1,0 +1,9 @@
+# Inference dependencies — what rank.py needs to produce submission.csv.
+# CPU-only, no network at ranking time.
+sentence-transformers==5.5.1
+faiss-cpu==1.14.2
+lightgbm==4.6.0
+pandas==3.0.3
+numpy==2.4.6
+# torch is pulled in by sentence-transformers (CPU build)
+torch==2.12.0

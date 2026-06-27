@@ -1,0 +1,6 @@
+# Additional dependencies used ONLY during offline pre-computation
+# (FAISS build, coherence validation, LLM labeling, LightGBM training).
+# Not needed by the judge to run rank.py.
+-r requirements.txt
+scikit-learn==1.9.0      # Stage-2 IsolationForest anomaly signal
+# LLM labeling (label_llm.py) uses only the Python stdlib (urllib) — no extra deps.
