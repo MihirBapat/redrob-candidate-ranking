@@ -70,164 +70,164 @@
 {"candidate_id": "CAND_0075249", "relevance": 5, "reasoning": "6.2y rec + semantic search at Zomato; open, 0.82 response — strong fit"}
 {"candidate_id": "CAND_0042029", "relevance": 4, "reasoning": "6.5y ranking models + RAG at Flipkart; not open to work caps at strong"}
 {"candidate_id": "CAND_0076831", "relevance": 3, "reasoning": "4.0y mixed churn + ranking; junior, moderate availability"}
-{"candidate_id": "CAND_0050454", "relevance": 4, "reasoning": "AI engineer with a strong background in semantic search and machine learning, including experience with sentence-transformers and FAISS, making them a relevant candidate.", "source": "groq"}
-{"candidate_id": "CAND_0051615", "relevance": 3, "reasoning": "Search engineer with experience in ranking layers and learning-to-rank models, but less direct experience in vector search and embeddings-based retrieval, and some concerns about overall experience level.", "source": "groq"}
-{"candidate_id": "CAND_0083879", "relevance": 5, "reasoning": "This candidate has relevant experience in building and operating production ML pipelines, and has worked on ranking models for discovery feeds, demonstrating a strong fit for the Senior AI Engineer role.", "source": "groq"}
-{"candidate_id": "CAND_0046064", "relevance": 5, "reasoning": "With experience in fine-tuning LLaMA-2-7B and Mistral-7B variants, and building a RAG-based ranking pipeline, this candidate has a strong background in applied ML and retrieval/ranking/search systems, making them a great fit for the role.", "source": "groq"}
-{"candidate_id": "CAND_0036437", "relevance": 3, "reasoning": "This candidate has experience in owning the ranking layer for e-commerce search products and has worked on learning-to-rank models, but their availability is a concern due to their low open-to-work signal.", "source": "groq"}
-{"candidate_id": "CAND_0081852", "relevance": 4, "reasoning": "With experience in implementing RAG-based customer support chatbots and building document ingestion pipelines, this candidate has a strong background in NLP and retrieval systems, making them a relevant candidate for the role.", "source": "groq"}
-{"candidate_id": "CAND_0009691", "relevance": 3, "reasoning": "This candidate has experience in building content recommendation systems and has worked with collaborative filtering and content-based ranking, but their experience in services companies is a concern.", "source": "groq"}
-{"candidate_id": "CAND_0072660", "relevance": 4, "reasoning": "With experience in building and operating production ML pipelines, and working on ranking models for e-commerce search products, this candidate has a strong background in applied ML and retrieval/ranking/search systems.", "source": "groq"}
-{"candidate_id": "CAND_0064326", "relevance": 3, "reasoning": "This candidate has experience in owning the ranking layer for e-commerce search products and has worked on learning-to-rank models, but their job-hopping history is a concern.", "source": "groq"}
-{"candidate_id": "CAND_0024620", "relevance": 4, "reasoning": "With experience in building and operating production ML pipelines, and working on ranking models for e-commerce search products, this candidate has a strong background in applied ML and retrieval/ranking/search systems.", "source": "groq"}
-{"candidate_id": "CAND_0079387", "relevance": 4, "reasoning": "This candidate has experience in building content recommendation systems and has worked with collaborative filtering and content-based ranking, and has a strong background in NLP and retrieval systems.", "source": "groq"}
-{"candidate_id": "CAND_0083307", "relevance": 3, "reasoning": "With experience in implementing RAG-based customer support chatbots and building document ingestion pipelines, this candidate has a strong background in NLP and retrieval systems, but their availability is a concern due to their low last_active signal.", "source": "groq"}
-{"candidate_id": "CAND_0031593", "relevance": 2, "reasoning": "This candidate has experience in owning the ranking layer for e-commerce search products and has worked on learning-to-rank models, but their experience is mostly in services companies, which is a concern.", "source": "groq"}
-{"candidate_id": "CAND_0043228", "relevance": 3, "reasoning": "With experience in building and operating production ML pipelines, and working on ranking models for e-commerce search products, this candidate has a strong background in applied ML and retrieval/ranking/search systems, but their availability is a concern due to their low open-to-work signal.", "source": "groq"}
-{"candidate_id": "CAND_0030827", "relevance": 5, "reasoning": "Strong experience in applied ML and retrieval/ranking/search work at product companies, with relevant skills and recent activity.", "source": "groq"}
-{"candidate_id": "CAND_0049896", "relevance": 4, "reasoning": "Solid AI/ML and IR/search/data background at product-type companies, with minor gaps in experience and skills.", "source": "groq"}
-{"candidate_id": "CAND_0020708", "relevance": 3, "reasoning": "Relevant domain and level, but with notable gaps in experience and skills, and some services exposure.", "source": "groq"}
-{"candidate_id": "CAND_0046132", "relevance": 3, "reasoning": "Right domain and level, but with weaker availability and some gaps in experience and skills.", "source": "groq"}
-{"candidate_id": "CAND_0028793", "relevance": 5, "reasoning": "Exceptional experience in applied ML and retrieval/ranking/search work at top product companies, with strong skills and recent activity.", "source": "groq"}
-{"candidate_id": "CAND_0011643", "relevance": 2, "reasoning": "Some relevant experience, but mostly off-domain and with thin relevance to the role.", "source": "groq"}
-{"candidate_id": "CAND_0053591", "relevance": 4, "reasoning": "Strong experience in AI and ML, with relevant skills and recent activity, but some gaps in retrieval/ranking/search experience.", "source": "groq"}
-{"candidate_id": "CAND_0062413", "relevance": 3, "reasoning": "Relevant domain and level, but with notable gaps in experience and skills, and some services exposure.", "source": "groq"}
-{"candidate_id": "CAND_0069248", "relevance": 2, "reasoning": "Some relevant experience, but mostly off-domain and with thin relevance to the role.", "source": "groq"}
-{"candidate_id": "CAND_0091909", "relevance": 5, "reasoning": "Strong experience in applied ML and retrieval/ranking/search work at product companies, with relevant skills and recent activity.", "source": "groq"}
-{"candidate_id": "CAND_0008295", "relevance": 1, "reasoning": "Entire career at IT services firms with no product company experience, and some gaps in skills and recent activity.", "source": "groq"}
-{"candidate_id": "CAND_0088335", "relevance": 1, "reasoning": "Primary expertise in computer vision, with no NLP/IR/retrieval exposure, and some gaps in experience and skills.", "source": "groq"}
-{"candidate_id": "CAND_0076904", "relevance": 5, "reasoning": "Strong experience in building ranking systems and recommendation models, with a focus on learning-to-rank and vector search.", "source": "groq"}
-{"candidate_id": "CAND_0015065", "relevance": 4, "reasoning": "Solid background in AI/ML, with experience in building recommendation systems and working on ranking models.", "source": "groq"}
-{"candidate_id": "CAND_0052706", "relevance": 2, "reasoning": "Experience in computer vision and ML, but limited exposure to NLP/IR/retrieval, and a significant portion of career spent in IT services.", "source": "groq"}
-{"candidate_id": "CAND_0037424", "relevance": 3, "reasoning": "Relevant experience in NLP and ML, but with some gaps in ranking/search/recommendation systems and limited product company experience.", "source": "groq"}
-{"candidate_id": "CAND_0022023", "relevance": 2, "reasoning": "Background in time-series forecasting and reinforcement learning, but limited direct experience in ranking/search/recommendation systems.", "source": "groq"}
-{"candidate_id": "CAND_0022812", "relevance": 4, "reasoning": "Strong experience in building ranking models and recommendation systems, with a focus on learning-to-rank and vector search, but not currently open to work.", "source": "groq"}
-{"candidate_id": "CAND_0068811", "relevance": 5, "reasoning": "Exceptional experience in building recommendation systems and ranking models, with a strong focus on learning-to-rank and vector search.", "source": "groq"}
-{"candidate_id": "CAND_0014858", "relevance": 3, "reasoning": "Solid background in AI/ML, with experience in building recommendation systems, but not currently open to work and some gaps in ranking/search/recommendation systems.", "source": "groq"}
-{"candidate_id": "CAND_0015528", "relevance": 4, "reasoning": "Strong experience in building recommendation systems and ranking models, with a focus on content-based ranking and collaborative filtering, but not currently open to work.", "source": "groq"}
-{"candidate_id": "CAND_0076995", "relevance": 1, "reasoning": "Limited direct experience in ranking/search/recommendation systems, with a background in mechanical and chemical engineering.", "source": "groq"}
-{"candidate_id": "CAND_0091890", "relevance": 2, "reasoning": "Experience in IT services and limited direct experience in ranking/search/recommendation systems, with some gaps in product company experience.", "source": "groq"}
-{"candidate_id": "CAND_0075138", "relevance": 1, "reasoning": "Limited direct experience in ranking/search/recommendation systems, with a significant portion of career spent in IT services.", "source": "groq"}
-{"candidate_id": "CAND_0081686", "relevance": 5, "reasoning": "This candidate has 6 years of experience in applied ML and retrieval/ranking/search work at product companies, with a strong background in Python and experience in shipping relevant systems.", "source": "groq"}
-{"candidate_id": "CAND_0001610", "relevance": 4, "reasoning": "This candidate has 3 years of experience in machine learning engineering, with a focus on semantic search and recommendation systems, but lacks the ideal 6-8 years of experience.", "source": "groq"}
-{"candidate_id": "CAND_0016163", "relevance": 4, "reasoning": "This candidate has 6.7 years of experience in applied ML engineering, with a strong background in NLP and information retrieval, but has a slightly off experience band.", "source": "groq"}
-{"candidate_id": "CAND_0023541", "relevance": 2, "reasoning": "This candidate has 5 years of experience in AI and ML, but their primary expertise is in computer vision, which is not the primary focus of the role.", "source": "groq"}
-{"candidate_id": "CAND_0019480", "relevance": 3, "reasoning": "This candidate has 2.8 years of experience in NLP engineering, with a focus on ranking models and recommendation systems, but lacks the ideal experience and has a weaker availability signal.", "source": "groq"}
-{"candidate_id": "CAND_0018888", "relevance": 3, "reasoning": "This candidate has 6.5 years of experience in AI research engineering, with a strong background in NLP and information retrieval, but has a weaker recruiter response rate and is not open to work.", "source": "groq"}
-{"candidate_id": "CAND_0007411", "relevance": 4, "reasoning": "This candidate has 8 years of experience in senior machine learning engineering, with a strong background in ranking pipelines and learning-to-rank models, but has been inactive for months and has a low recruiter response rate.", "source": "groq"}
-{"candidate_id": "CAND_0089552", "relevance": 4, "reasoning": "This candidate has 6 years of experience in machine learning engineering, with a focus on recommendation systems and semantic search, but lacks the ideal experience in production deployment and has a weaker availability signal.", "source": "groq"}
-{"candidate_id": "CAND_0079284", "relevance": 3, "reasoning": "This candidate has 4.9 years of experience in machine learning engineering, with a strong background in ranking models and recommendation systems, but lacks the ideal experience and has a weaker availability signal.", "source": "groq"}
-{"candidate_id": "CAND_0022720", "relevance": 3, "reasoning": "This candidate has 6.5 years of experience in AI research engineering, with a focus on time-series forecasting and recommendation systems, but lacks the ideal experience in production deployment and has a weaker availability signal.", "source": "groq"}
-{"candidate_id": "CAND_0040677", "relevance": 2, "reasoning": "This candidate has 4.2 years of experience in AI research engineering, with a focus on recommendation systems and ML feature engineering, but lacks the ideal experience and has a weaker availability signal.", "source": "groq"}
-{"candidate_id": "CAND_0085199", "relevance": 2, "reasoning": "This candidate has 4.1 years of experience in AI research engineering, with a focus on predictive modeling and computer vision, but lacks the ideal experience in NLP and information retrieval.", "source": "groq"}
-{"candidate_id": "CAND_0092706", "relevance": 4, "reasoning": "The candidate has relevant experience in building recommendation systems and has worked with technologies like collaborative filtering and gradient-boosted re-ranking, but the overall experience is slightly less than the ideal range.", "source": "groq"}
-{"candidate_id": "CAND_0032271", "relevance": 3, "reasoning": "The candidate has a strong background in AI/ML with experience in building predictive models and recommendation systems, but the career history shows a mix of AI/ML and non-relevant roles.", "source": "groq"}
-{"candidate_id": "CAND_0087316", "relevance": 3, "reasoning": "The candidate has experience in building recommendation systems, but the overall experience is less than the ideal range and there are some gaps in the relevance of the skills and experience to the role.", "source": "groq"}
-{"candidate_id": "CAND_0030031", "relevance": 5, "reasoning": "The candidate has exceptional experience in building recommendation systems, ranking models, and has worked with relevant technologies like sentence-transformer embeddings and gradient-boosted models, with a strong background in AI/ML.", "source": "groq"}
-{"candidate_id": "CAND_0088441", "relevance": 2, "reasoning": "The candidate has experience in building computer vision models, but the relevance to the role is limited, and the overall experience is not strongly aligned with the requirements of the position.", "source": "groq"}
-{"candidate_id": "CAND_0073620", "relevance": 2, "reasoning": "The candidate has a mix of relevant and non-relevant experience, with some experience in building recommendation systems, but the overall fit for the role is not strong due to the presence of non-relevant skills and experience.", "source": "groq"}
-{"candidate_id": "CAND_0035879", "relevance": 3, "reasoning": "The candidate has relevant experience in building recommendation systems and has worked with relevant technologies, but the overall experience is less than the ideal range and there are some gaps in the relevance of the skills and experience to the role.", "source": "groq"}
-{"candidate_id": "CAND_0095858", "relevance": 2, "reasoning": "The candidate has experience in building predictive models and recommendation systems, but the relevance to the role is limited, and the overall experience is not strongly aligned with the requirements of the position.", "source": "groq"}
-{"candidate_id": "CAND_0058146", "relevance": 2, "reasoning": "The candidate has a mix of relevant and non-relevant experience, with some experience in building predictive models, but the overall fit for the role is not strong due to the presence of non-relevant skills and experience, and a career history that includes time at an IT services firm.", "source": "groq"}
-{"candidate_id": "CAND_0013111", "relevance": 2, "reasoning": "The candidate has experience in building computer vision models and NLP pipelines, but the relevance to the role is limited, and the overall experience is not strongly aligned with the requirements of the position.", "source": "groq"}
-{"candidate_id": "CAND_0015643", "relevance": 3, "reasoning": "The candidate has relevant experience in building predictive models and recommendation systems, but the overall experience is not strongly aligned with the requirements of the position, and there are some gaps in the relevance of the skills and experience to the role.", "source": "groq"}
-{"candidate_id": "CAND_0057563", "relevance": 5, "reasoning": "The candidate has exceptional experience in building ranking models, recommendation systems, and has worked with relevant technologies like learning-to-rank models and sentence-transformer embeddings, with a strong background in NLP and AI/ML.", "source": "groq"}
-{"candidate_id": "CAND_0098780", "relevance": 2, "reasoning": "The candidate has experience in computer vision but lacks direct experience in embeddings-based retrieval, vector/hybrid search, and ranking/recommendation/search systems.", "source": "groq"}
-{"candidate_id": "CAND_0027218", "relevance": 2, "reasoning": "The candidate has experience in ML feature engineering and model deployment, but their background is more focused on time-series forecasting and computer vision, with limited direct experience in retrieval/ranking/search.", "source": "groq"}
-{"candidate_id": "CAND_0016657", "relevance": 2, "reasoning": "The candidate has experience in predictive modeling and ML feature engineering, but their background is more focused on general data science tasks rather than specific retrieval/ranking/search systems.", "source": "groq"}
-{"candidate_id": "CAND_0051630", "relevance": 5, "reasoning": "The candidate has direct experience in ranking layer development for an e-commerce search product and semantic search feature development, making them a strong fit for the role.", "source": "groq"}
-{"candidate_id": "CAND_0074317", "relevance": 2, "reasoning": "The candidate has experience in ML feature engineering and model deployment, but their background is more focused on general data science tasks rather than specific retrieval/ranking/search systems, and they lack direct experience in embeddings-based retrieval.", "source": "groq"}
-{"candidate_id": "CAND_0054318", "relevance": 2, "reasoning": "The candidate has experience in ML feature engineering and model deployment, but their background is more focused on general data science tasks rather than specific retrieval/ranking/search systems, and they lack direct experience in embeddings-based retrieval.", "source": "groq"}
-{"candidate_id": "CAND_0043936", "relevance": 2, "reasoning": "The candidate has experience in NLP pipelines for sentiment analysis and document classification, but lacks direct experience in embeddings-based retrieval, vector/hybrid search, and ranking/recommendation/search systems.", "source": "groq"}
-{"candidate_id": "CAND_0042056", "relevance": 1, "reasoning": "The candidate has experience in time-series forecasting models, but lacks direct experience in embeddings-based retrieval, vector/hybrid search, and ranking/recommendation/search systems, and their background is more focused on general data science tasks.", "source": "groq"}
-{"candidate_id": "CAND_0089546", "relevance": 2, "reasoning": "The candidate has experience in building and operating production ML pipelines, including a churn prediction model, but lacks direct experience in embeddings-based retrieval, vector/hybrid search, and ranking/recommendation/search systems.", "source": "groq"}
-{"candidate_id": "CAND_0075481", "relevance": 1, "reasoning": "The candidate has experience in ML feature engineering and model deployment, but their background is in IT services, which is a negative signal, and they lack direct experience in embeddings-based retrieval, vector/hybrid search, and ranking/recommendation/search systems.", "source": "groq"}
-{"candidate_id": "CAND_0044890", "relevance": 2, "reasoning": "The candidate has experience in ML feature engineering and model deployment, but their background is more focused on general data science tasks rather than specific retrieval/ranking/search systems, and they lack direct experience in embeddings-based retrieval.", "source": "groq"}
-{"candidate_id": "CAND_0051004", "relevance": 4, "reasoning": "The candidate has experience in implementing a RAG-based customer support chatbot and has worked with embeddings, making them a strong fit for the role, but their title is Senior Data Scientist, which may indicate a more senior role than the one we are hiring for.", "source": "groq"}
-{"candidate_id": "CAND_0099581", "relevance": 2, "reasoning": "The candidate has experience in computer vision but lacks experience in embeddings-based retrieval, vector/hybrid search, and ranking/recommendation/search systems.", "source": "groq"}
-{"candidate_id": "CAND_0043450", "relevance": 3, "reasoning": "The candidate has experience in NLP and time-series forecasting, but their experience in ranking/recommendation/search systems is limited.", "source": "groq"}
-{"candidate_id": "CAND_0039383", "relevance": 5, "reasoning": "The candidate has experience in applied ML and retrieval/ranking/search work at product companies, with a strong background in ranking models and semantic search.", "source": "groq"}
-{"candidate_id": "CAND_0019288", "relevance": 3, "reasoning": "The candidate has experience in predictive modeling and NLP, but their experience in ranking/recommendation/search systems is limited.", "source": "groq"}
-{"candidate_id": "CAND_0045250", "relevance": 4, "reasoning": "The candidate has experience in applied ML and ranking models, but their experience in embeddings-based retrieval and vector/hybrid search is limited, and they are not open to work.", "source": "groq"}
-{"candidate_id": "CAND_0049688", "relevance": 2, "reasoning": "The candidate has experience in predictive modeling and NLP, but their experience in ranking/recommendation/search systems is limited, and they are not open to work.", "source": "groq"}
-{"candidate_id": "CAND_0000705", "relevance": 2, "reasoning": "The candidate has experience in computer vision and NLP, but their experience in ranking/recommendation/search systems is limited.", "source": "groq"}
-{"candidate_id": "CAND_0070514", "relevance": 3, "reasoning": "The candidate has experience in time-series forecasting and NLP, but their experience in ranking/recommendation/search systems is limited.", "source": "groq"}
-{"candidate_id": "CAND_0095884", "relevance": 3, "reasoning": "The candidate has experience in recommendation systems and NLP, but their experience in embeddings-based retrieval and vector/hybrid search is limited, and they are not open to work.", "source": "groq"}
-{"candidate_id": "CAND_0018722", "relevance": 5, "reasoning": "The candidate has experience in recommendation systems and ranking models, with a strong background in learning-to-rank and semantic search.", "source": "groq"}
-{"candidate_id": "CAND_0060303", "relevance": 2, "reasoning": "The candidate has experience in time-series forecasting and recommendation systems, but their experience in ranking/recommendation/search systems is limited, and they are not open to work.", "source": "groq"}
-{"candidate_id": "CAND_0082973", "relevance": 1, "reasoning": "The candidate has experience in computer vision and recommendation systems, but their experience is mostly in services and they are not open to work.", "source": "groq"}
-{"candidate_id": "CAND_0010257", "relevance": 5, "reasoning": "This candidate has a strong background in applied ML and retrieval/ranking/search work, with experience at product companies like Google and PharmEasy, and has shipped relevant systems.", "source": "groq"}
-{"candidate_id": "CAND_0000165", "relevance": 2, "reasoning": "This candidate has experience in computer vision, which is not the primary focus of the role, but has some relevant skills like information retrieval and semantic search.", "source": "groq"}
-{"candidate_id": "CAND_0075574", "relevance": 5, "reasoning": "This candidate has experience in ranking and recommendation systems, with a strong background in ML and IR, and has worked at product companies like Haptik and Observe.AI.", "source": "groq"}
-{"candidate_id": "CAND_0061175", "relevance": 4, "reasoning": "This candidate has a strong background in recommendation systems and has worked at product companies like Haptik, but has some gaps in experience and availability.", "source": "groq"}
-{"candidate_id": "CAND_0052335", "relevance": 5, "reasoning": "This candidate has experience in ranking and recommendation systems, with a strong background in ML and IR, and has worked at product companies like Aganitha and Wysa.", "source": "groq"}
-{"candidate_id": "CAND_0098952", "relevance": 3, "reasoning": "This candidate has experience in time-series forecasting and reinforcement learning, but has some gaps in experience and relevance to the role.", "source": "groq"}
-{"candidate_id": "CAND_0094165", "relevance": 2, "reasoning": "This candidate has experience in time-series forecasting and reinforcement learning, but has some gaps in experience and relevance to the role, and has worked at services companies like Genpact AI.", "source": "groq"}
-{"candidate_id": "CAND_0033311", "relevance": 2, "reasoning": "This candidate has experience in customer-facing predictive modeling, but has some gaps in experience and relevance to the role, and has worked at a single company for a long time.", "source": "groq"}
-{"candidate_id": "CAND_0081709", "relevance": 3, "reasoning": "This candidate has experience in NLP and computer vision, but has some gaps in experience and relevance to the role, and has worked at companies like Saarthi.ai and Ola.", "source": "groq"}
-{"candidate_id": "CAND_0029294", "relevance": 1, "reasoning": "This candidate has experience in computer vision and ML, but has worked at services companies like TCS, and has some gaps in experience and relevance to the role.", "source": "groq"}
-{"candidate_id": "CAND_0086028", "relevance": 2, "reasoning": "This candidate has experience in computer vision and ML, but has worked at companies like Paytm and Swiggy, and has some gaps in experience and relevance to the role.", "source": "groq"}
-{"candidate_id": "CAND_0016432", "relevance": 3, "reasoning": "This candidate has experience in NLP and sentiment analysis, but has some gaps in experience and relevance to the role, and has worked at companies like Meesho and Freshworks.", "source": "groq"}
-{"candidate_id": "CAND_0051545", "relevance": 3, "reasoning": "The candidate has relevant experience in AI research engineering, but the skills list seems unreliable and the career history is not strongly focused on retrieval/ranking/search systems.", "source": "groq"}
-{"candidate_id": "CAND_0036484", "relevance": 4, "reasoning": "The candidate has a strong background in AI research engineering with experience in ML feature engineering and model deployment, but the focus is more on general AI/ML rather than retrieval/ranking/search systems.", "source": "groq"}
-{"candidate_id": "CAND_0058575", "relevance": 5, "reasoning": "The candidate has experience in developing semantic search features and implementing RAG-based customer support chatbots, demonstrating a strong fit for the role.", "source": "groq"}
-{"candidate_id": "CAND_0075439", "relevance": 4, "reasoning": "The candidate has experience in building recommendation systems and implementing RAG-based customer support chatbots, but the career history is not entirely focused on retrieval/ranking/search systems.", "source": "groq"}
-{"candidate_id": "CAND_0020350", "relevance": 3, "reasoning": "The candidate has experience in building and operating production ML pipelines, but the focus is more on general AI/ML rather than retrieval/ranking/search systems.", "source": "groq"}
-{"candidate_id": "CAND_0040887", "relevance": 5, "reasoning": "The candidate has experience in developing semantic search features and implementing RAG-based customer support chatbots, demonstrating a strong fit for the role.", "source": "groq"}
-{"candidate_id": "CAND_0051219", "relevance": 3, "reasoning": "The candidate has experience in building recommendation-style features, but the career history is not strongly focused on retrieval/ranking/search systems and the skills list seems unreliable.", "source": "groq"}
-{"candidate_id": "CAND_0053695", "relevance": 5, "reasoning": "The candidate has experience in training and shipping ranking models, and designing features for product discovery feeds, demonstrating a strong fit for the role.", "source": "groq"}
-{"candidate_id": "CAND_0033303", "relevance": 2, "reasoning": "The candidate has experience in building computer vision models, but the focus is not on retrieval/ranking/search systems and the career history is not strongly relevant to the role.", "source": "groq"}
-{"candidate_id": "CAND_0042564", "relevance": 2, "reasoning": "The candidate has experience in building NLP pipelines, but the career history is not strongly focused on retrieval/ranking/search systems and the skills list seems unreliable.", "source": "groq"}
-{"candidate_id": "CAND_0043381", "relevance": 3, "reasoning": "The candidate has experience in building recommendation-style features, but the career history is not strongly focused on retrieval/ranking/search systems and the skills list seems unreliable.", "source": "groq"}
-{"candidate_id": "CAND_0025640", "relevance": 3, "reasoning": "The candidate has experience in building recommendation-style features, but the career history is not strongly focused on retrieval/ranking/search systems and the skills list seems unreliable.", "source": "groq"}
-{"candidate_id": "CAND_0005311", "relevance": 3, "reasoning": "The candidate has relevant experience in building computer vision models and recommendation systems, but lacks experience in production-level retrieval, ranking, and search systems.", "source": "groq"}
-{"candidate_id": "CAND_0084391", "relevance": 2, "reasoning": "The candidate has experience in building recommendation systems, but most of their experience is in IT services, which is a negative signal.", "source": "groq"}
-{"candidate_id": "CAND_0016170", "relevance": 3, "reasoning": "The candidate has relevant experience in building recommendation systems and NLP pipelines, but has a mix of product and IT services experience.", "source": "groq"}
-{"candidate_id": "CAND_0008628", "relevance": 2, "reasoning": "The candidate has relevant experience in building computer vision models and recommendation systems, but lacks experience in production-level retrieval, ranking, and search systems, and is not open to work.", "source": "groq"}
-{"candidate_id": "CAND_0046459", "relevance": 3, "reasoning": "The candidate has relevant experience in building computer vision models and NLP pipelines, but has a mix of product and IT services experience.", "source": "groq"}
-{"candidate_id": "CAND_0073450", "relevance": 2, "reasoning": "The candidate has relevant experience in building time-series forecasting models and computer vision models, but lacks experience in production-level retrieval, ranking, and search systems, and is not open to work.", "source": "groq"}
-{"candidate_id": "CAND_0050146", "relevance": 1, "reasoning": "The candidate has experience in IT services, which is a negative signal, and lacks relevant experience in production-level retrieval, ranking, and search systems.", "source": "groq"}
-{"candidate_id": "CAND_0040946", "relevance": 1, "reasoning": "The candidate has experience in IT services, which is a negative signal, and lacks relevant experience in production-level retrieval, ranking, and search systems.", "source": "groq"}
-{"candidate_id": "CAND_0013613", "relevance": 5, "reasoning": "The candidate has relevant experience in building semantic search features, ranking models, and content recommendation systems, and has a strong background in product companies.", "source": "groq"}
-{"candidate_id": "CAND_0011432", "relevance": 5, "reasoning": "The candidate has relevant experience in building ranking models, customer support chatbots, and NLP pipelines, and has a strong background in product companies.", "source": "groq"}
-{"candidate_id": "CAND_0068040", "relevance": 2, "reasoning": "The candidate has relevant experience in building computer vision models, but lacks experience in production-level retrieval, ranking, and search systems.", "source": "groq"}
-{"candidate_id": "CAND_0058300", "relevance": 1, "reasoning": "The candidate has experience in IT services, which is a negative signal, and lacks relevant experience in production-level retrieval, ranking, and search systems.", "source": "groq"}
-{"candidate_id": "CAND_0006538", "relevance": 4, "reasoning": "The candidate has relevant experience in building recommendation systems and has worked with ranking systems, but has a mix of product and services experience.", "source": "groq"}
-{"candidate_id": "CAND_0059520", "relevance": 2, "reasoning": "The candidate has a Ph.D. in Civil Engineering and has worked in AI/ML, but the career history and skills do not strongly align with the required role.", "source": "groq"}
-{"candidate_id": "CAND_0004628", "relevance": 3, "reasoning": "The candidate has relevant experience in ML feature engineering and model deployment, but the overall experience is relatively limited and not strongly focused on retrieval or ranking systems.", "source": "groq"}
-{"candidate_id": "CAND_0078042", "relevance": 5, "reasoning": "The candidate has strong experience in building ranking models and has worked with relevant technologies such as XGBoost and LightGBM, making them a strong fit for the role.", "source": "groq"}
-{"candidate_id": "CAND_0018549", "relevance": 5, "reasoning": "The candidate has relevant experience in building recommendation systems and has worked with ranking systems, and has a strong background in ML and data science.", "source": "groq"}
-{"candidate_id": "CAND_0028647", "relevance": 3, "reasoning": "The candidate has some relevant experience, but the career history is mixed and includes time in services and non-ML roles, reducing their overall relevance.", "source": "groq"}
-{"candidate_id": "CAND_0032807", "relevance": 4, "reasoning": "The candidate has relevant experience in building ML models and has worked with relevant technologies, but the focus is more on general ML rather than retrieval or ranking systems.", "source": "groq"}
-{"candidate_id": "CAND_0076587", "relevance": 3, "reasoning": "The candidate has some relevant experience, but the career history includes significant time in services, which reduces their overall relevance for a product company role.", "source": "groq"}
-{"candidate_id": "CAND_0038821", "relevance": 4, "reasoning": "The candidate has a strong background in ML and AI, but the experience is more focused on general AI and ML rather than retrieval or ranking systems specifically.", "source": "groq"}
-{"candidate_id": "CAND_0015132", "relevance": 3, "reasoning": "The candidate has some relevant experience, but the career history includes significant time in services and non-ML roles, reducing their overall relevance.", "source": "groq"}
-{"candidate_id": "CAND_0068985", "relevance": 3, "reasoning": "The candidate has relevant experience in building recommendation systems and has worked with relevant technologies, but the overall experience is relatively mixed and not strongly focused on retrieval or ranking systems.", "source": "groq"}
-{"candidate_id": "CAND_0091229", "relevance": 4, "reasoning": "The candidate has a strong background in ML and AI, and has experience working with time-series forecasting models, but the experience is not strongly focused on retrieval or ranking systems.", "source": "groq"}
-{"candidate_id": "CAND_0063585", "relevance": 4, "reasoning": "The candidate has relevant experience in building recommendation-style features and has worked with vector search and learning to rank, but has limited years of experience.", "source": "groq"}
-{"candidate_id": "CAND_0047721", "relevance": 4, "reasoning": "The candidate has strong experience in building content recommendation systems and has worked with ranking models, but is not currently open to work.", "source": "groq"}
-{"candidate_id": "CAND_0095528", "relevance": 5, "reasoning": "The candidate has relevant experience in building content recommendation systems and has worked with vector search and embeddings, and is open to work.", "source": "groq"}
-{"candidate_id": "CAND_0095184", "relevance": 3, "reasoning": "The candidate has some relevant experience in building ML models, but has mostly worked in computer vision and has limited experience in retrieval and ranking systems.", "source": "groq"}
-{"candidate_id": "CAND_0006581", "relevance": 3, "reasoning": "The candidate has some relevant experience in building recommendation-style features, but has limited experience in retrieval and ranking systems and is not open to work.", "source": "groq"}
-{"candidate_id": "CAND_0080794", "relevance": 2, "reasoning": "The candidate has relevant experience in building NLP pipelines, but has mostly worked in IT services and has limited experience in product companies.", "source": "groq"}
-{"candidate_id": "CAND_0036973", "relevance": 3, "reasoning": "The candidate has relevant experience in building NLP pipelines and has worked with ranking models, but is not open to work and has limited experience in retrieval systems.", "source": "groq"}
-{"candidate_id": "CAND_0017090", "relevance": 3, "reasoning": "The candidate has relevant experience in building ML models, but has mostly worked in non-retrieval and non-ranking systems and is open to work.", "source": "groq"}
-{"candidate_id": "CAND_0094445", "relevance": 2, "reasoning": "The candidate has some relevant experience in building predictive models, but has limited experience in retrieval and ranking systems and is not open to work.", "source": "groq"}
-{"candidate_id": "CAND_0094728", "relevance": 2, "reasoning": "The candidate has relevant experience in building NLP pipelines, but has limited experience in retrieval and ranking systems and is not open to work.", "source": "groq"}
-{"candidate_id": "CAND_0012632", "relevance": 2, "reasoning": "The candidate has relevant experience in building predictive models, but has mostly worked in non-retrieval and non-ranking systems and is not open to work.", "source": "groq"}
-{"candidate_id": "CAND_0077261", "relevance": 4, "reasoning": "The candidate has relevant experience in building NLP pipelines and has worked with ranking models, and is open to work.", "source": "groq"}
-{"candidate_id": "CAND_0089444", "relevance": 4, "reasoning": "Strong experience in NLP and AI, with a focus on production experience in embeddings-based retrieval and ranking systems, making them a strong fit for the role.", "source": "groq"}
-{"candidate_id": "CAND_0010541", "relevance": 4, "reasoning": "Relevant experience in ML and AI, with a focus on recommendation systems and ranking models, but some gaps in experience with embeddings-based retrieval and vector search.", "source": "groq"}
-{"candidate_id": "CAND_0060054", "relevance": 5, "reasoning": "Exceptional experience in AI and ML, with a strong focus on production experience in embeddings-based retrieval, vector search, and ranking systems, making them an ideal fit for the role.", "source": "groq"}
-{"candidate_id": "CAND_0020494", "relevance": 2, "reasoning": "Some relevant experience in AI and ML, but primary expertise is in computer vision and speech, without NLP/IR/retrieval exposure, making them a weaker fit for the role.", "source": "groq"}
-{"candidate_id": "CAND_0074225", "relevance": 4, "reasoning": "Strong experience in ML and AI, with a focus on recommendation systems and ranking models, and some experience with embeddings-based retrieval and vector search, making them a strong fit for the role.", "source": "groq"}
-{"candidate_id": "CAND_0001218", "relevance": 3, "reasoning": "Relevant experience in AI and ML, but some gaps in experience with embeddings-based retrieval and vector search, and a notable gap in experience with product companies, making them a weaker fit for the role.", "source": "groq"}
-{"candidate_id": "CAND_0075175", "relevance": 1, "reasoning": "Limited experience in AI and ML, with primary expertise in computer vision, and no experience with NLP/IR/retrieval, making them a weak fit for the role.", "source": "groq"}
-{"candidate_id": "CAND_0081053", "relevance": 4, "reasoning": "Strong experience in NLP and AI, with a focus on production experience in embeddings-based retrieval and ranking systems, making them a strong fit for the role.", "source": "groq"}
-{"candidate_id": "CAND_0026913", "relevance": 2, "reasoning": "Some relevant experience in AI and ML, but limited experience with embeddings-based retrieval and vector search, and a notable gap in experience with product companies, making them a weaker fit for the role.", "source": "groq"}
-{"candidate_id": "CAND_0098454", "relevance": 4, "reasoning": "Strong experience in AI and ML, with a focus on production experience in embeddings-based retrieval and ranking systems, making them a strong fit for the role.", "source": "groq"}
-{"candidate_id": "CAND_0013122", "relevance": 3, "reasoning": "Relevant experience in AI and ML, but some gaps in experience with embeddings-based retrieval and vector search, and a notable gap in experience with product companies, making them a weaker fit for the role.", "source": "groq"}
-{"candidate_id": "CAND_0007412", "relevance": 5, "reasoning": "Exceptional experience in AI and ML, with a strong focus on production experience in embeddings-based retrieval, vector search, and ranking systems, and experience with product companies, making them an ideal fit for the role.", "source": "groq"}
+{"candidate_id": "CAND_0050454", "relevance": 5, "reasoning": "6.8y semantic search + LTR ranking at Rephrase/Uber/Adobe; open, available"}
+{"candidate_id": "CAND_0051615", "relevance": 4, "reasoning": "4.6y LTR ranking at Meta; junior but excellent availability (0.88, open)"}
+{"candidate_id": "CAND_0083879", "relevance": 4, "reasoning": "7.1y ranking models + churn at PhonePe/Swiggy; mixed domain, open"}
+{"candidate_id": "CAND_0046064", "relevance": 5, "reasoning": "8.9y candidate-JD-matching + RAG ranking + end-to-end ranking at Amazon/Salesforce; open"}
+{"candidate_id": "CAND_0036437", "relevance": 3, "reasoning": "4.8y LTR ranking + churn; junior and not open to work"}
+{"candidate_id": "CAND_0081852", "relevance": 3, "reasoning": "5.9y RAG chatbot + churn; adjacent not core ranking; moderate availability"}
+{"candidate_id": "CAND_0009691", "relevance": 4, "reasoning": "6.2y content recommendation at LinkedIn/Amazon; core-adjacent, open"}
+{"candidate_id": "CAND_0072660", "relevance": 4, "reasoning": "7.1y LTR ranking + churn at Adobe/Glance; mixed, open, available"}
+{"candidate_id": "CAND_0064326", "relevance": 5, "reasoning": "7.6y LTR ranking + RAG at Sarvam/Apple; 0.94 response, open — strong"}
+{"candidate_id": "CAND_0024620", "relevance": 3, "reasoning": "5.9y LTR ranking but two churn roles; mixed; moderate availability"}
+{"candidate_id": "CAND_0079387", "relevance": 4, "reasoning": "6.9y rec + RAG + semantic search at Microsoft; some churn dilution; open"}
+{"candidate_id": "CAND_0083307", "relevance": 4, "reasoning": "7.8y LTR ranking + semantic search at Netflix/CRED; open, available"}
+{"candidate_id": "CAND_0031593", "relevance": 4, "reasoning": "7.8y LTR ranking + RAG + rec; core domain, open"}
+{"candidate_id": "CAND_0043228", "relevance": 3, "reasoning": "6.8y LTR ranking + semantic search but not open and moderate response"}
+{"candidate_id": "CAND_0030827", "relevance": 4, "reasoning": "5.4y LTR ranking + semantic search at Freshworks/Glance; open"}
+{"candidate_id": "CAND_0049896", "relevance": 4, "reasoning": "7.3y RAG + recommendation at Flipkart/Unacademy; open, moderate response"}
+{"candidate_id": "CAND_0020708", "relevance": 4, "reasoning": "4.2y semantic search at PolicyBazaar; junior but strong availability (0.84, open)"}
+{"candidate_id": "CAND_0046132", "relevance": 3, "reasoning": "4.3y self-described light rec + forecasting; junior, adjacent, but available"}
+{"candidate_id": "CAND_0028793", "relevance": 4, "reasoning": "7.2y semantic search + ranking at Google/Amazon; core, open, moderate response"}
+{"candidate_id": "CAND_0011643", "relevance": 2, "reasoning": "4.2y fraud-detection eng + churn; off-core (not retrieval/ranking), junior"}
+{"candidate_id": "CAND_0053591", "relevance": 4, "reasoning": "5.3y LTR ranking + RAG at Ola/Swiggy; core, open, available"}
+{"candidate_id": "CAND_0062413", "relevance": 3, "reasoning": "6.6y forecasting + NLP sentiment classification; NLP-adjacent not retrieval/ranking"}
+{"candidate_id": "CAND_0069248", "relevance": 3, "reasoning": "5.4y light rec + classification + churn; adjacent mix, not core"}
+{"candidate_id": "CAND_0091909", "relevance": 4, "reasoning": "6.9y rec + LTR ranking at Meta/Rephrase; core, open"}
+{"candidate_id": "CAND_0008295", "relevance": 2, "reasoning": "6.5y NLP classification + forecasting, half at TCS; off-core domain"}
+{"candidate_id": "CAND_0088335", "relevance": 1, "reasoning": "6.4y computer-vision image moderation + forecasting; CV negative, consulting, not open"}
+{"candidate_id": "CAND_0076904", "relevance": 3, "reasoning": "4.2y LTR ranking + semantic search; core domain but junior"}
+{"candidate_id": "CAND_0015065", "relevance": 2, "reasoning": "3.9y light rec + fraud eng; junior and adjacent"}
+{"candidate_id": "CAND_0052706", "relevance": 2, "reasoning": "5.1y fraud eng + computer-vision image moderation; CV/fraud off-core"}
+{"candidate_id": "CAND_0037424", "relevance": 2, "reasoning": "5.6y NLP classification + churn; off-core, low response, inactive"}
+{"candidate_id": "CAND_0022023", "relevance": 2, "reasoning": "4.6y forecasting + fraud eng + NLP classification; off-core, junior"}
+{"candidate_id": "CAND_0022812", "relevance": 3, "reasoning": "4.5y ranking models + LTR at Dream11/Razorpay; core but junior and not open"}
+{"candidate_id": "CAND_0068811", "relevance": 4, "reasoning": "8y rec + RAG + LTR ranking at Freshworks/Meesho; strong core mix, open"}
+{"candidate_id": "CAND_0014858", "relevance": 2, "reasoning": "4.9y light rec + NLP classification; adjacent, low response"}
+{"candidate_id": "CAND_0015528", "relevance": 3, "reasoning": "7.4y rec + churn; core-adjacent, not open"}
+{"candidate_id": "CAND_0076995", "relevance": 2, "reasoning": "4.4y light rec + churn/LTV; adjacent, junior, non-CS degrees"}
+{"candidate_id": "CAND_0091890", "relevance": 2, "reasoning": "4.7y churn/LTV + light rec, half at Tech Mahindra; adjacent"}
+{"candidate_id": "CAND_0075138", "relevance": 1, "reasoning": "4.6y churn/LTV + fraud at Infosys; off-core, consulting, junior"}
+{"candidate_id": "CAND_0081686", "relevance": 4, "reasoning": "6.0y LTR ranking + semantic search at Netflix; 0.91 response but not open"}
+{"candidate_id": "CAND_0001610", "relevance": 2, "reasoning": "Core semantic search + ranking but only 3.0y (too junior)"}
+{"candidate_id": "CAND_0016163", "relevance": 3, "reasoning": "6.7y mostly churn + one semantic search; mixed, leans off-core"}
+{"candidate_id": "CAND_0023541", "relevance": 1, "reasoning": "5.0y CV image moderation + classification + forecasting; CV/off-core"}
+{"candidate_id": "CAND_0019480", "relevance": 2, "reasoning": "Core ranking models at Meesho/Freshworks but only 2.8y (far too junior)"}
+{"candidate_id": "CAND_0018888", "relevance": 2, "reasoning": "6.5y NLP classification + fraud + forecasting + CV title; off-core, not open"}
+{"candidate_id": "CAND_0007411", "relevance": 2, "reasoning": "8y perfect end-to-end ranking but unavailable: 0.12 response, not open, inactive 6mo"}
+{"candidate_id": "CAND_0089552", "relevance": 3, "reasoning": "6.0y RAG + rec at Netflix; core but not open, moderate response"}
+{"candidate_id": "CAND_0079284", "relevance": 3, "reasoning": "4.9y ranking + rec at Google/Swiggy; core but junior and not open"}
+{"candidate_id": "CAND_0022720", "relevance": 2, "reasoning": "6.5y forecasting + CV-engineer roles; off-core, not open"}
+{"candidate_id": "CAND_0040677", "relevance": 2, "reasoning": "4.2y light rec + fraud eng; adjacent, junior, low response"}
+{"candidate_id": "CAND_0085199", "relevance": 1, "reasoning": "4.1y churn/LTV + CV image moderation + forecasting; off-core, junior"}
+{"candidate_id": "CAND_0092706", "relevance": 2, "reasoning": "5.8y light rec + fraud eng; adjacent, not core"}
+{"candidate_id": "CAND_0032271", "relevance": 2, "reasoning": "6.6y churn/LTV + light rec + CV moderation; off-core mix"}
+{"candidate_id": "CAND_0087316", "relevance": 2, "reasoning": "4.1y light rec + forecasting; adjacent, junior, not open"}
+{"candidate_id": "CAND_0030031", "relevance": 4, "reasoning": "5.7y ranking + rec at Google/Microsoft/Amazon; 0.94 response, not open caps"}
+{"candidate_id": "CAND_0088441", "relevance": 1, "reasoning": "6.5y CV image moderation + forecasting + fraud; CV/off-core"}
+{"candidate_id": "CAND_0073620", "relevance": 1, "reasoning": "4.4y CV image moderation at TCS + light rec; CV, consulting, junior"}
+{"candidate_id": "CAND_0035879", "relevance": 2, "reasoning": "4.5y light rec + forecasting; adjacent, junior"}
+{"candidate_id": "CAND_0095858", "relevance": 1, "reasoning": "4.3y forecasting + churn/LTV; off-core, junior, low response, not open"}
+{"candidate_id": "CAND_0058146", "relevance": 2, "reasoning": "5.1y pure churn/LTV predictive modeling; off-core, not open"}
+{"candidate_id": "CAND_0013111", "relevance": 1, "reasoning": "4.2y CV image moderation + forecasting; CV/off-core, junior"}
+{"candidate_id": "CAND_0015643", "relevance": 2, "reasoning": "5.8y churn/LTV + NLP classification; off-core, not open"}
+{"candidate_id": "CAND_0057563", "relevance": 4, "reasoning": "6.8y LTR ranking + rec + semantic search; strong core but not open"}
+{"candidate_id": "CAND_0098780", "relevance": 1, "reasoning": "5.9y pure computer-vision image moderation; CV negative for this role"}
+{"candidate_id": "CAND_0027218", "relevance": 1, "reasoning": "4.7y fraud + forecasting + CV; off-core, inactive, low response"}
+{"candidate_id": "CAND_0016657", "relevance": 2, "reasoning": "5.3y churn/LTV + fraud; off-core, not open"}
+{"candidate_id": "CAND_0051630", "relevance": 3, "reasoning": "6.0y LTR ranking + semantic search at Razorpay/InMobi; core but not open"}
+{"candidate_id": "CAND_0074317", "relevance": 2, "reasoning": "4.2y fraud + churn/LTV; off-core, junior"}
+{"candidate_id": "CAND_0054318", "relevance": 1, "reasoning": "3.5y fraud eng single role; off-core, junior"}
+{"candidate_id": "CAND_0043936", "relevance": 1, "reasoning": "3.7y NLP sentiment classification; off-core, junior, low response"}
+{"candidate_id": "CAND_0042056", "relevance": 1, "reasoning": "3.4y time-series forecasting; off-core, junior"}
+{"candidate_id": "CAND_0089546", "relevance": 2, "reasoning": "4.8y churn prediction; off-core, not open"}
+{"candidate_id": "CAND_0075481", "relevance": 1, "reasoning": "3.9y fraud + churn at TCS/Infosys; off-core, consulting, junior"}
+{"candidate_id": "CAND_0044890", "relevance": 2, "reasoning": "5.0y fraud eng + NLP classification + CV; off-core"}
+{"candidate_id": "CAND_0051004", "relevance": 3, "reasoning": "4.7y RAG retrieval chatbots; core-adjacent but junior, moderate availability"}
+{"candidate_id": "CAND_0099581", "relevance": 1, "reasoning": "6.4y CV image moderation + fraud; CV negative, mechanical degrees"}
+{"candidate_id": "CAND_0043450", "relevance": 1, "reasoning": "3.3y forecasting + NLP classification; off-core, junior"}
+{"candidate_id": "CAND_0039383", "relevance": 4, "reasoning": "7.1y ranking models + semantic search at Meesho/Swiggy; strong core, open"}
+{"candidate_id": "CAND_0019288", "relevance": 2, "reasoning": "5.7y churn/LTV + fraud + classification; off-core"}
+{"candidate_id": "CAND_0045250", "relevance": 3, "reasoning": "6.6y ranking models + churn; mixed core, not open"}
+{"candidate_id": "CAND_0049688", "relevance": 1, "reasoning": "5.0y churn/LTV + forecasting + fraud; off-core, not open"}
+{"candidate_id": "CAND_0000705", "relevance": 1, "reasoning": "3.6y CV image moderation + forecasting; CV/off-core, junior, not open"}
+{"candidate_id": "CAND_0070514", "relevance": 2, "reasoning": "5.5y forecasting + NLP classification; off-core"}
+{"candidate_id": "CAND_0095884", "relevance": 2, "reasoning": "3.8y light rec + churn/LTV; adjacent, junior, not open"}
+{"candidate_id": "CAND_0018722", "relevance": 5, "reasoning": "6.6y semantic search + LTR ranking at Swiggy/Unacademy; core, open, available"}
+{"candidate_id": "CAND_0060303", "relevance": 2, "reasoning": "4.9y forecasting + light rec + CV; off-core, not open"}
+{"candidate_id": "CAND_0082973", "relevance": 1, "reasoning": "6.4y CV image moderation + light rec; CV/adjacent, not open"}
+{"candidate_id": "CAND_0010257", "relevance": 4, "reasoning": "6.5y ranking + rec + churn at Google; mixed core, open, available"}
+{"candidate_id": "CAND_0000165", "relevance": 1, "reasoning": "6.8y CV image moderation + fraud eng; CV/off-core, low response"}
+{"candidate_id": "CAND_0075574", "relevance": 4, "reasoning": "5.7y LTR ranking + RAG at Haptik/Observe.AI; core, open, available"}
+{"candidate_id": "CAND_0061175", "relevance": 2, "reasoning": "6.7y light rec + churn; adjacent, moderate availability"}
+{"candidate_id": "CAND_0052335", "relevance": 4, "reasoning": "6.4y LTR ranking + RAG at Aganitha; core, open, available"}
+{"candidate_id": "CAND_0098952", "relevance": 2, "reasoning": "5.5y forecasting + light rec; off-core"}
+{"candidate_id": "CAND_0094165", "relevance": 2, "reasoning": "5.8y forecasting + churn; off-core"}
+{"candidate_id": "CAND_0033311", "relevance": 1, "reasoning": "4.5y churn/LTV single role; off-core, junior"}
+{"candidate_id": "CAND_0081709", "relevance": 2, "reasoning": "5.5y NLP classification + CV moderation; off-core/CV"}
+{"candidate_id": "CAND_0029294", "relevance": 1, "reasoning": "4.0y CV moderation + churn at TCS; CV/off-core, consulting, junior"}
+{"candidate_id": "CAND_0086028", "relevance": 1, "reasoning": "6.2y CV moderation + light rec + fraud; CV/adjacent, not open"}
+{"candidate_id": "CAND_0016432", "relevance": 1, "reasoning": "4.6y NLP sentiment classification; off-core, not open"}
+{"candidate_id": "CAND_0051545", "relevance": 1, "reasoning": "3.2y churn/LTV single role; off-core, junior, not open"}
+{"candidate_id": "CAND_0036484", "relevance": 2, "reasoning": "5.7y fraud eng; off-core"}
+{"candidate_id": "CAND_0058575", "relevance": 4, "reasoning": "5.8y semantic search + RAG at Krutrim/Uber; core, open"}
+{"candidate_id": "CAND_0075439", "relevance": 3, "reasoning": "4.3y RAG + rec at Flipkart; core but junior and not open"}
+{"candidate_id": "CAND_0020350", "relevance": 2, "reasoning": "5.8y churn prediction (both roles); off-core"}
+{"candidate_id": "CAND_0040887", "relevance": 4, "reasoning": "4.7y semantic search + RAG at Netflix; core, junior but strong availability"}
+{"candidate_id": "CAND_0051219", "relevance": 2, "reasoning": "3.8y light rec + NLP classification; adjacent, junior"}
+{"candidate_id": "CAND_0053695", "relevance": 4, "reasoning": "5.8y ranking models + LTR + semantic search; core, open"}
+{"candidate_id": "CAND_0033303", "relevance": 1, "reasoning": "4.4y CV moderation + forecasting; CV/off-core, junior"}
+{"candidate_id": "CAND_0042564", "relevance": 1, "reasoning": "3.2y NLP classification + churn at Tech Mahindra; off-core, consulting, junior"}
+{"candidate_id": "CAND_0043381", "relevance": 2, "reasoning": "3.6y light rec single role; adjacent, junior"}
+{"candidate_id": "CAND_0025640", "relevance": 2, "reasoning": "5.6y light rec + classification at HCL; adjacent, consulting"}
+{"candidate_id": "CAND_0005311", "relevance": 1, "reasoning": "5.7y CV moderation + forecasting; CV/off-core, low response"}
+{"candidate_id": "CAND_0084391", "relevance": 1, "reasoning": "3.5y light rec + churn at HCL; adjacent, consulting, junior"}
+{"candidate_id": "CAND_0016170", "relevance": 2, "reasoning": "6.8y light rec + forecasting + classification; adjacent mix"}
+{"candidate_id": "CAND_0008628", "relevance": 1, "reasoning": "3.2y light rec + CV moderation; adjacent/CV, junior, not open"}
+{"candidate_id": "CAND_0046459", "relevance": 1, "reasoning": "4.5y CV moderation + classification at Wipro; CV/off-core, consulting"}
+{"candidate_id": "CAND_0073450", "relevance": 1, "reasoning": "3.6y forecasting + CV moderation; CV/off-core, junior, not open"}
+{"candidate_id": "CAND_0050146", "relevance": 1, "reasoning": "3.2y forecasting + churn at HCL; off-core, consulting, junior, not open"}
+{"candidate_id": "CAND_0040946", "relevance": 1, "reasoning": "6.0y churn/LTV + forecasting at TCS; off-core, consulting, low response"}
+{"candidate_id": "CAND_0013613", "relevance": 4, "reasoning": "4.7y semantic search + ranking + rec at Adobe/Razorpay; core, junior but available"}
+{"candidate_id": "CAND_0011432", "relevance": 4, "reasoning": "7.6y ranking models + RAG at Amazon/Nykaa; strong core, ideal exp, open"}
+{"candidate_id": "CAND_0068040", "relevance": 1, "reasoning": "4.1y pure CV image moderation; CV negative, junior"}
+{"candidate_id": "CAND_0058300", "relevance": 1, "reasoning": "4.5y light rec + classification + churn at Wipro/HCL; off-core, consulting"}
+{"candidate_id": "CAND_0006538", "relevance": 2, "reasoning": "5.7y light rec + CV + classification; adjacent/CV, consulting"}
+{"candidate_id": "CAND_0059520", "relevance": 1, "reasoning": "4.3y NLP classification + fraud; off-core, junior, not open"}
+{"candidate_id": "CAND_0004628", "relevance": 1, "reasoning": "3.3y fraud eng single role; off-core, junior"}
+{"candidate_id": "CAND_0078042", "relevance": 3, "reasoning": "4.7y ranking models + LTR at PolicyBazaar/Ola; core but junior and not open"}
+{"candidate_id": "CAND_0018549", "relevance": 4, "reasoning": "6.8y LTR ranking + rec at Uber/Flipkart; core, ideal exp, open"}
+{"candidate_id": "CAND_0028647", "relevance": 1, "reasoning": "3.9y forecasting + light rec; off-core, junior"}
+{"candidate_id": "CAND_0032807", "relevance": 3, "reasoning": "4.2y RAG retrieval chatbot at CRED; core-adjacent but junior"}
+{"candidate_id": "CAND_0076587", "relevance": 1, "reasoning": "4.9y fraud eng + CV moderation; off-core/CV"}
+{"candidate_id": "CAND_0038821", "relevance": 1, "reasoning": "4.3y forecasting + churn/LTV; off-core, junior"}
+{"candidate_id": "CAND_0015132", "relevance": 1, "reasoning": "5.1y churn/LTV + forecasting; off-core, inactive"}
+{"candidate_id": "CAND_0068985", "relevance": 2, "reasoning": "5.2y light rec + fraud + forecasting; adjacent, not open"}
+{"candidate_id": "CAND_0091229", "relevance": 2, "reasoning": "7.0y forecasting + churn; off-core, low response"}
+{"candidate_id": "CAND_0063585", "relevance": 1, "reasoning": "3.1y light rec single role; adjacent, junior, low response"}
+{"candidate_id": "CAND_0047721", "relevance": 3, "reasoning": "7.0y rec + LTR ranking at Microsoft; core but not open, moderate response"}
+{"candidate_id": "CAND_0095528", "relevance": 3, "reasoning": "5.3y rec at Netflix + churn; mixed core, open"}
+{"candidate_id": "CAND_0095184", "relevance": 1, "reasoning": "5.2y fraud + CV moderation at Infosys; off-core/CV, consulting, low response"}
+{"candidate_id": "CAND_0006581", "relevance": 1, "reasoning": "3.3y CV moderation + light rec; CV/adjacent, junior, not open"}
+{"candidate_id": "CAND_0080794", "relevance": 2, "reasoning": "6.2y fraud eng + NLP classification at Wipro; off-core, consulting"}
+{"candidate_id": "CAND_0036973", "relevance": 2, "reasoning": "6.2y NLP classification + churn/LTV; off-core, not open, low response"}
+{"candidate_id": "CAND_0017090", "relevance": 2, "reasoning": "5.5y fraud eng + CV moderation; off-core/CV"}
+{"candidate_id": "CAND_0094445", "relevance": 1, "reasoning": "4.7y churn/LTV + fraud eng; off-core, not open"}
+{"candidate_id": "CAND_0094728", "relevance": 2, "reasoning": "6.5y NLP classification + fraud eng; off-core, not open"}
+{"candidate_id": "CAND_0012632", "relevance": 1, "reasoning": "6.0y churn/LTV + forecasting; off-core, not open"}
+{"candidate_id": "CAND_0077261", "relevance": 2, "reasoning": "5.7y fraud eng + NLP classification; off-core"}
+{"candidate_id": "CAND_0089444", "relevance": 1, "reasoning": "4.5y NLP classification + fraud eng; off-core, junior"}
+{"candidate_id": "CAND_0010541", "relevance": 2, "reasoning": "6.2y fraud eng + light rec; adjacent"}
+{"candidate_id": "CAND_0060054", "relevance": 4, "reasoning": "6.4y semantic search + rec + ranking models at Uber; core, 0.86 response, not open caps"}
+{"candidate_id": "CAND_0020494", "relevance": 1, "reasoning": "5.9y churn/LTV + forecasting; off-core, not open, low response"}
+{"candidate_id": "CAND_0074225", "relevance": 4, "reasoning": "4.3y ranking models + RAG at Unacademy/MSD; core, junior but strong availability"}
+{"candidate_id": "CAND_0001218", "relevance": 2, "reasoning": "6.4y light rec + classification, incl Tech Mahindra; adjacent, consulting"}
+{"candidate_id": "CAND_0075175", "relevance": 1, "reasoning": "3.1y CV image moderation single role; CV, junior, not open"}
+{"candidate_id": "CAND_0081053", "relevance": 3, "reasoning": "5.4y rec at Salesforce + churn; mixed core, open"}
+{"candidate_id": "CAND_0026913", "relevance": 1, "reasoning": "3.9y NLP classification single role; off-core, junior"}
+{"candidate_id": "CAND_0098454", "relevance": 2, "reasoning": "6.6y fraud eng + classification at Wipro; off-core, consulting"}
+{"candidate_id": "CAND_0013122", "relevance": 2, "reasoning": "4.3y light rec + forecasting; adjacent, junior"}
+{"candidate_id": "CAND_0007412", "relevance": 4, "reasoning": "7.4y RAG + ranking models + LTR at LinkedIn/Swiggy; strong core, ideal exp, open"}
 {"candidate_id": "CAND_0070653", "relevance": 4, "reasoning": "The candidate has relevant experience in NLP and machine learning, with a strong background in Python and PyTorch, but lacks direct experience in embeddings-based retrieval and ranking systems.", "source": "groq"}
 {"candidate_id": "CAND_0088438", "relevance": 4, "reasoning": "The candidate has experience in building recommendation systems and has worked with collaborative filtering and gradient-boosted re-ranking, but lacks experience in embeddings-based retrieval and vector search.", "source": "groq"}
 {"candidate_id": "CAND_0055960", "relevance": 4, "reasoning": "The candidate has relevant experience in building recommendation systems and has worked with collaborative filtering and gradient-boosted re-ranking, with a strong background in Python and PyTorch.", "source": "groq"}
