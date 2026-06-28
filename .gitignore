@@ -47,3 +47,7 @@ _spec_*
 # ---- OS cruft ----
 .DS_Store
 Thumbs.db
+
+# local test scaffolding
+organic_candidates.jsonl
+test.py
