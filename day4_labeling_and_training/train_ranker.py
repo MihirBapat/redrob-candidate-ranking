@@ -91,40 +91,41 @@ def run(input_path="candidates.jsonl", labels_path="labels.jsonl",
     print(f"Built features for {len(df)} labeled candidates.")
     print("Label distribution:", df["relevance"].value_counts().sort_index().to_dict())
 
-    # train/val split (each a single query group for lambdarank)
+    # Pointwise learning-to-rank: regress the 0-5 LLM relevance, then rank by the
+    # predicted score. With a single JD (one query group) this is far more stable
+    # than lambdarank's single-group NDCG, and it learns smooth combinations of
+    # domain + experience + availability instead of collapsing onto one feature.
     rng = np.random.default_rng(seed)
     perm = rng.permutation(len(df))
     n_val = max(1, int(len(df) * val_frac))
     val_idx, tr_idx = perm[:n_val], perm[n_val:]
     X = df[FEATURE_COLUMNS].to_numpy(dtype=float)
-    y = df["relevance"].to_numpy(dtype=int)
+    y = df["relevance"].to_numpy(dtype=float)
 
-    dtrain = lgb.Dataset(X[tr_idx], label=y[tr_idx], group=[len(tr_idx)])
-    dval = lgb.Dataset(X[val_idx], label=y[val_idx], group=[len(val_idx)], reference=dtrain)
+    dtrain = lgb.Dataset(X[tr_idx], label=y[tr_idx])
+    dval = lgb.Dataset(X[val_idx], label=y[val_idx], reference=dtrain)
 
-    # Leaf/bin constraints scale with dataset size so small label sets can still
-    # split (raise these as the label count grows).
     n_train = len(tr_idx)
-    min_leaf = 5 if n_train < 200 else (10 if n_train < 1000 else 20)
+    min_leaf = 5 if n_train < 200 else (15 if n_train < 1000 else 25)
     params = {
-        "objective": "lambdarank",
-        "metric": "ndcg",
-        "ndcg_eval_at": [10, 50],
+        "objective": "regression",
+        "metric": "rmse",
         "boosting_type": "gbdt",
-        "num_leaves": 15 if n_train < 300 else 31,
-        "learning_rate": 0.05,
+        "num_leaves": 31,
+        "learning_rate": 0.03,
         "min_data_in_leaf": min_leaf,
-        "min_data_in_bin": 1,
-        "feature_fraction": 0.9,
-        "bagging_fraction": 1.0,
-        "label_gain": [0, 1, 3, 7, 15, 31],   # gains for relevance 0..5
+        "feature_fraction": 0.8,
+        "bagging_fraction": 0.8,
+        "bagging_freq": 1,
+        "lambda_l1": 0.5,
+        "lambda_l2": 1.0,
         "verbose": -1,
     }
-    print(f"\nTraining LightGBM (lambdarank), min_data_in_leaf={min_leaf}...")
+    print(f"\nTraining LightGBM (regression / pointwise LTR), min_data_in_leaf={min_leaf}...")
     model = lgb.train(
-        params, dtrain, num_boost_round=300,
+        params, dtrain, num_boost_round=800,
         valid_sets=[dtrain, dval], valid_names=["train", "val"],
-        callbacks=[lgb.early_stopping(50), lgb.log_evaluation(50)],
+        callbacks=[lgb.early_stopping(60), lgb.log_evaluation(100)],
     )
 
     os.makedirs(artifacts, exist_ok=True)

@@ -48,17 +48,21 @@ CURRENT_DATE = datetime(2026, 6, 1)
 # services; the rest defaults to non-services.
 SERVICES_INDUSTRIES = {"it services", "consulting"}
 
-AI_DATA_TITLE_TERMS = ("ml engineer", "machine learning", "ai ", "a.i", "data scientist",
-                       "data engineer", "analytics engineer", "research engineer",
-                       "nlp", "ai research")
-SWE_TITLE_TERMS = ("software engineer", "backend", "full stack", "fullstack",
+AI_DATA_TITLE_TERMS = ("ml engineer", "machine learning", "ai engineer", "ai/ml",
+                       "a.i", "data scientist", "data engineer", "analytics engineer",
+                       "research engineer", "nlp", "ai research", "applied scientist",
+                       "applied ml", "search engineer", "recommendation", "relevance",
+                       "ranking", "retrieval", "search & ranking")
+SWE_TITLE_TERMS = ("software engineer", "backend", "back end", "full stack", "fullstack",
                    "developer", "cloud engineer", "devops", "frontend", "mobile",
-                   "qa engineer", "data analyst", "sre", "platform engineer")
+                   "qa engineer", "data analyst", "sde", "sre", "platform engineer")
+# Clearly off-domain OR not-what-the-JD-wants (pure research/management/consulting).
 OFFDOMAIN_TITLE_TERMS = ("hr ", "human resource", "recruit", "sales", "marketing",
                          "account", "civil engineer", "mechanical engineer",
                          "graphic", "content writer", "customer support",
                          "operations", "business analyst", "project manager",
-                         "designer", "finance")
+                         "designer", "finance", "research assistant", "research intern",
+                         "consultant", "cto", "ceo", "founder")
 MANAGERIAL_TERMS = ("manager", "director", "head of", "vp ", "chief", "architect")
 IC_ENG_TERMS = ("engineer", "developer", "scientist", "programmer")
 
