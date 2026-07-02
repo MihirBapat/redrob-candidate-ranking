@@ -160,6 +160,33 @@ class GeminiProvider(Provider):
         return data["candidates"][0]["content"]["parts"][0]["text"]
 
 
+class OllamaProvider(Provider):
+    """Local LLM via Ollama (http://localhost:11434) — free, unlimited, offline."""
+    URL = os.environ.get("OLLAMA_URL", "http://localhost:11434") + "/api/chat"
+
+    def __init__(self, model="llama3.1"):
+        self.model = model
+
+    def complete(self, payloads):
+        user = (f"Here are exactly {len(payloads)} candidates as a JSON array. "
+                f"Return a JSON array of exactly {len(payloads)} label objects.\n"
+                + json.dumps(payloads, ensure_ascii=False))
+        body = {
+            "model": self.model,
+            "messages": [{"role": "system", "content": SYSTEM_PROMPT},
+                         {"role": "user", "content": user}],
+            "stream": False,
+            "format": "json",
+            "options": {"temperature": 0.1},
+        }
+        req = urllib.request.Request(
+            self.URL, data=json.dumps(body).encode(),
+            headers={"Content-Type": "application/json"})
+        with urllib.request.urlopen(req, timeout=300) as r:
+            data = json.loads(r.read())
+        return data["message"]["content"]
+
+
 # --------------------------------------------------------------------------- #
 # Parsing / store
 # --------------------------------------------------------------------------- #
@@ -216,9 +243,12 @@ def append_store(store, objs, source):
 # Driver
 # --------------------------------------------------------------------------- #
 def run(provider_name, queue="label_queue.jsonl", batch=12, limit=None, model=None):
-    provider = (GroqProvider(model or "llama-3.3-70b-versatile")
-                if provider_name == "groq"
-                else GeminiProvider(model or "gemini-2.0-flash"))
+    if provider_name == "groq":
+        provider = GroqProvider(model or "llama-3.3-70b-versatile")
+    elif provider_name == "ollama":
+        provider = OllamaProvider(model or "llama3.1")
+    else:
+        provider = GeminiProvider(model or "gemini-2.0-flash")
 
     payloads = [json.loads(l) for l in open(queue, encoding="utf-8") if l.strip()]
     store = load_store()
@@ -255,7 +285,7 @@ def run(provider_name, queue="label_queue.jsonl", batch=12, limit=None, model=No
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
-    ap.add_argument("--provider", choices=["groq", "gemini"], default="groq")
+    ap.add_argument("--provider", choices=["groq", "gemini", "ollama"], default="groq")
     ap.add_argument("--queue", default="label_queue.jsonl")
     ap.add_argument("--batch", type=int, default=12)
     ap.add_argument("--limit", type=int, default=None)
